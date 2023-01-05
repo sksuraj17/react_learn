@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
+.expense-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px dotted #c421ff;
+    background-color: #4a00c2;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Average Sans', sans-serif;
+
+  }
+  
+  .expense-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: 'Average Sans', sans-serif;
+    color: salmon;
+  }
+  
+  .expense-date__year {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'Average Sans', sans-serif;
+    color: rgb(0, 210, 0);
+  }
+  
+  .expense-date__day {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Average Sans', sans-serif;
+    color: aliceblue;
+  }
